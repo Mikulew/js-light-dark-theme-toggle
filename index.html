@@ -8,14 +8,21 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/toggle.css" />
 </head>
 <body>
   <div class="canvas">
-    <section class="blog">
-      <header>Test heading</header>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt vel laborum ipsa cupiditate minima asperiores tempora quisquam repudiandae, id perspiciatis. Molestiae, excepturi numquam? Harum ab exercitationem minus laudantium optio eius!</p>
-    </section>
+    <div class="container">
+      <label for="checkbox" class="toggle">
+        <input type="checkbox" class="checkbox" id="checkbox">
+        <div class="slider">
+          <div class="sun"></div>
+          <div class="moon"></div>
+        </div>
+        </div>
+      </label>
+    </div>
   </div>
   <script type="module" src="./script.js"></script>
 </body>
