@@ -1,0 +1,32 @@
+:root {
+  --yangColor: #d8c21e;
+  --yinColor: #111111;
+}
+
+html {
+  font-size: 2vmin;
+  font-family: 'Playfair Display', serif;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  background: var(--yinColor);
+}
+
+*, *::before, *::after {
+  font-size: inherit;
+  font-family: inherit;
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.canvas {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
