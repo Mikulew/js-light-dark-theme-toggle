@@ -7,23 +7,63 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="css/toggle.css" />
 </head>
 <body>
-  <div class="canvas">
-    <div class="container">
+  <main class="container">
+    <nav class="navigation-bar">
+      <ul class="navigation">
+        <li class="navigation-item">
+          <a class="navigation-link" href="#">Home</a>
+        </li>
+        <li class="navigation-item">
+          <a class="navigation-link" href="#">About Us</a>
+        </li>
+        <li class="navigation-item">
+          <a class="navigation-link" href="#">Our Services</a>
+        </li>
+        <li class="navigation-item">
+          <a class="navigation-link" href="#">Privacy Policy</a>
+        </li>
+        <li class="navigation-item">
+          <a class="navigation-link" href="#">Contact</a>
+        </li>
+      </ul>
+
       <label for="checkbox" class="toggle">
         <input type="checkbox" class="checkbox" id="checkbox">
         <div class="slider">
           <div class="moon"></div>
           <div class="sun"></div>
         </div>
-        </div>
       </label>
-    </div>
-  </div>
+    </nav>
+
+    <section class="blog">
+      <h1 class="title">Blog Posts</h1>
+
+      <div class="post">
+        <h2 class="post-title">Blog Post Number 1</h2>
+        <p class="post-text">In non odio excepturi sint eum labore voluptates vitae quia qui et inventore itaque rerum veniam non exercitationem delectus aut.</p>
+        <h4 class="post-author">By John Doe.</h4>
+      </div>
+
+      <div class="post">
+        <h2 class="post-title">Blog Post Number 2</h2>
+        <p class="post-text">In non odio excepturi sint eum labore voluptates vitae quia qui et inventore itaque rerum veniam non exercitationem delectus aut.</p>
+        <h4 class="post-author">By Nikos Lawenda.</h4>
+      </div>
+
+      <div class="post">
+        <h2 class="post-title">Blog Post Number 3</h2>
+        <p class="post-text">In non odio excepturi sint eum labore voluptates vitae quia qui et inventore itaque rerum veniam non exercitationem delectus aut.</p>
+        <h4 class="post-author">By Mikulew.</h4>
+      </div>
+    </section>
+  </main>
   <script type="module" src="./script.js"></script>
 </body>
 </html>
