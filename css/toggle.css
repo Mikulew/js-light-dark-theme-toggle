@@ -72,11 +72,11 @@
 }
 
 .moon::after {
-  background: url('../images/sun.svg');
-  right: 5px;
+  background-image: url('../images/moon.svg');
+  left: 5px;
 }
 
 .sun::after {
-  background: url('../images/moon.svg');
-  left: 5px;
+  background-image: url('../images/sun.svg');
+  right: 5px;
 }
