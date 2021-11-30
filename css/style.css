@@ -176,3 +176,27 @@ body.dark-theme .post-title {
 	font-style: italic;
 	font-size: 15px;
 }
+
+@media (max-width: 768px) {
+  .navigation-bar {
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .navigation {
+    flex-direction: column;
+    margin: 10px 0;
+  }
+
+  .navigation-item {
+    text-align: center;
+  }
+
+  .toggle {
+    margin-bottom: 20px;
+  }
+
+  .post {
+    width: 90vw;
+  }
+}
