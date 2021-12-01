@@ -7,13 +7,13 @@ window.addEventListener('DOMContentLoaded', () => setTheme(theme));
 
 switchButton.addEventListener("click", () => toggleTheme());
 
-function toggleTheme () {
+function toggleTheme() {
   theme = theme === "light" ? "dark" : "light";
   localStorage.setItem("theme", theme);
   setTheme(theme);
 }
 
-function setTheme (mode) {
+function setTheme(mode) {
   if (mode === 'light') {
     if (document.body.classList.contains("dark-theme")) {
       document.body.classList.remove("dark-theme");
